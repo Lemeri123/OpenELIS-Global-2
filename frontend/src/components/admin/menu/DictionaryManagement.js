@@ -27,7 +27,7 @@ import {
   AlertDialog,
   NotificationKinds,
 } from "../../common/CustomNotification";
-import PageBreadCrumb from "../../common/PageBreadCrumb";
+import PageBreadCrumb from "../../common/PageBreadCrumb.tsx";
 import { ConfigurationContext, NotificationContext } from "../../layout/Layout";
 import "../../Style.css";
 import {

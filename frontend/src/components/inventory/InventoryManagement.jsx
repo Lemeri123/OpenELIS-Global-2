@@ -9,7 +9,7 @@ import {
   Column,
 } from "@carbon/react";
 import { FormattedMessage } from "react-intl";
-import PageBreadCrumb from "../common/PageBreadCrumb";
+import PageBreadCrumb from "../common/PageBreadCrumb.tsx";
 import InventoryDashboard from "./InventoryDashboard";
 import InventoryCatalog from "./InventoryCatalog";
 import InventoryReports from "./InventoryReports";

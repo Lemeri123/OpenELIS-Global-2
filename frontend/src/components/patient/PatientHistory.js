@@ -4,7 +4,7 @@ import "../Style.css";
 import { Heading, Grid, Column, Section } from "@carbon/react";
 import SearchPatientForm from "./SearchPatientForm";
 import { useState, useEffect, useRef } from "react";
-import PageBreadCrumb from "../common/PageBreadCrumb";
+import PageBreadCrumb from "../common/PageBreadCrumb.tsx";
 
 let breadcrumbs = [
   { label: "home.label", link: "/" },

@@ -25,7 +25,7 @@ import {
 import { NotificationContext } from "../layout/Layout";
 import { AlertDialog, NotificationKinds } from "../common/CustomNotification";
 import { ConfigurationContext } from "../layout/Layout";
-import PageBreadCrumb from "../common/PageBreadCrumb";
+import PageBreadCrumb from "../common/PageBreadCrumb.tsx";
 
 export default function Workplan(props) {
   const { configurationProperties } = useContext(ConfigurationContext);

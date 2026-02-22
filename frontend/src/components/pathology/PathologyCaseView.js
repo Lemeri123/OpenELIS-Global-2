@@ -34,7 +34,7 @@ import { FormattedMessage, useIntl } from "react-intl";
 import PatientHeader from "../common/PatientHeader";
 import QuestionnaireResponse from "../common/QuestionnaireResponse";
 import "./PathologyDashboard.css";
-import PageBreadCrumb from "../common/PageBreadCrumb";
+import PageBreadCrumb from "../common/PageBreadCrumb.tsx";
 
 function PathologyCaseView() {
   const intl = useIntl();

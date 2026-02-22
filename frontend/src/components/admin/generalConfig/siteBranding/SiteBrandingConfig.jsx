@@ -29,7 +29,7 @@ import {
 } from "../../../common/CustomNotification";
 import { FormattedMessage, useIntl } from "react-intl";
 import { useHistory } from "react-router-dom";
-import PageBreadCrumb from "../../../common/PageBreadCrumb";
+import PageBreadCrumb from "../../../common/PageBreadCrumb.tsx";
 import LogoUploadSection from "./LogoUploadSection";
 import ColorPickerSection from "./ColorPickerSection";
 import config from "../../../../config.json";

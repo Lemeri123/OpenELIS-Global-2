@@ -33,7 +33,7 @@ import DisposeLotModal from "./DisposeLotModal";
 import UpdateQCStatusModal from "./UpdateQCStatusModal";
 import LotDetailsPanel from "./LotDetailsPanel";
 import InventoryReportsModal from "./InventoryReportsModal";
-import PageBreadCrumb from "../common/PageBreadCrumb";
+import PageBreadCrumb from "../common/PageBreadCrumb.tsx";
 import "./InventoryList.css";
 
 const breadcrumbs = [

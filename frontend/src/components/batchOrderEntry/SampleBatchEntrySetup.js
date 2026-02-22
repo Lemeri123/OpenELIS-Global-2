@@ -26,7 +26,7 @@ import {
   getFromOpenElisServer,
   postToOpenElisServerFullResponse,
 } from "../utils/Utils";
-import PageBreadCrumb from "../common/PageBreadCrumb";
+import PageBreadCrumb from "../common/PageBreadCrumb.tsx";
 import SampleBatchEntry from "./SampleBatchEntry";
 
 const SampleBatchEntrySetup = () => {

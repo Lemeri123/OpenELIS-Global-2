@@ -16,7 +16,7 @@ import ReportByID from "../common/ReportByID";
 import ReportByDate from "../common/ReportByDate";
 import ReportByLabNo from "../common/ReportByLabNo";
 import NonConformityNotification from "./NonConformityNotification";
-import PageBreadCrumb from "../../common/PageBreadCrumb";
+import PageBreadCrumb from "../../common/PageBreadCrumb.tsx";
 import AuditTrailReport from "../auditTrailReport/AuditTrailReport";
 import ReportByDateCSV from "../common/ReportByDateCSV";
 import IntermediateByService from "./IntermediateByService";

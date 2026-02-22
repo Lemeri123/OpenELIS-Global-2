@@ -35,7 +35,7 @@ import {
   NotificationKinds,
 } from "../../common/CustomNotification.js";
 import { FormattedMessage, injectIntl, useIntl } from "react-intl";
-import PageBreadCrumb from "../../common/PageBreadCrumb.js";
+import PageBreadCrumb from "../../common/PageBreadCrumb.tsx";
 import ActionPaginationButtonType from "../../common/ActionPaginationButtonType.js";
 
 let breadcrumbs = [
@@ -617,10 +617,10 @@ function AnalyzerTestName() {
                               indeterminate={
                                 selectedRowIds.length > 0 &&
                                 selectedRowIds.length <
-                                  AnalyzerTestNameShow.slice(
-                                    (page - 1) * pageSize,
-                                    page * pageSize,
-                                  ).filter((row) => !row.disabled).length
+                                AnalyzerTestNameShow.slice(
+                                  (page - 1) * pageSize,
+                                  page * pageSize,
+                                ).filter((row) => !row.disabled).length
                               }
                               onSelect={() => {
                                 setDeactivateButton(false);

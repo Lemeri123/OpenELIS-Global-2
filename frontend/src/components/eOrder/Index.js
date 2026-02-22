@@ -1,7 +1,7 @@
 import { React, useRef, useState } from "react";
 import EOrderSearch from "./EOrderSearch";
 import EOrder from "./EOrder";
-import PageBreadCrumb from "../common/PageBreadCrumb";
+import PageBreadCrumb from "../common/PageBreadCrumb.tsx";
 import { Column, Grid, Section, Heading } from "@carbon/react";
 import { FormattedMessage } from "react-intl";
 let breadcrumbs = [{ label: "home.label", link: "/" }];

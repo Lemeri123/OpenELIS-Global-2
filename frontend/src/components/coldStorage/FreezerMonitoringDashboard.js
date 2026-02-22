@@ -42,7 +42,7 @@ import CorrectiveActions from "./CorrectiveActions";
 import HistoricalTrends from "./HistoricalTrends";
 import Reports from "./Reports";
 import Settings from "./Settings";
-import PageBreadCrumb from "../common/PageBreadCrumb";
+import PageBreadCrumb from "../common/PageBreadCrumb.tsx";
 import { injectIntl } from "react-intl";
 import {
   fetchFreezerStatus,

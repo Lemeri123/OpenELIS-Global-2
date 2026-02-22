@@ -21,7 +21,7 @@ import {
 } from "@carbon/react";
 
 import "./programCaseView.css";
-import PageBreadCrumb from "../common/PageBreadCrumb";
+import PageBreadCrumb from "../common/PageBreadCrumb.tsx";
 import { FormattedMessage, useIntl } from "react-intl";
 import { ArrowLeft, ArrowRight } from "@carbon/icons-react";
 import AsyncAvatar from "../patient/photoManagement/photoAvatar/AyncAvatar";

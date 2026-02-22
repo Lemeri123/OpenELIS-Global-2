@@ -16,7 +16,7 @@ import {
   Pagination,
 } from "@carbon/react";
 import { Copy } from "@carbon/icons-react";
-import PageBreadCrumb from "../common/PageBreadCrumb";
+import PageBreadCrumb from "../common/PageBreadCrumb.tsx";
 import CustomLabNumberInput from "../common/CustomLabNumberInput";
 import {
   getFromOpenElisServer,

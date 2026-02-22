@@ -5,7 +5,7 @@ import { Column, Grid, Heading, Section } from "@carbon/react";
 import SearchOrder from "./SearchOrder";
 import { AlertDialog } from "../common/CustomNotification";
 import { NotificationContext } from "../layout/Layout";
-import PageBreadCrumb from "../common/PageBreadCrumb";
+import PageBreadCrumb from "../common/PageBreadCrumb.tsx";
 let breadcrumbs = [{ label: "home.label", link: "/" }];
 
 const Index = () => {

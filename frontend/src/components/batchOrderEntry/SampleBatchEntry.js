@@ -19,7 +19,7 @@ import {
 import { FormattedMessage, useIntl } from "react-intl";
 import { AlertDialog, NotificationKinds } from "../common/CustomNotification";
 import "../Style.css";
-import PageBreadCrumb from "../common/PageBreadCrumb";
+import PageBreadCrumb from "../common/PageBreadCrumb.tsx";
 import {
   getFromOpenElisServer,
   postToOpenElisServerFullResponse,

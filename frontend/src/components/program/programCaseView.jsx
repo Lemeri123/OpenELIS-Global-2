@@ -4,7 +4,7 @@ import { Grid, Column, Row, Section } from "@carbon/react";
 import PatientHeader from "../common/PatientHeader";
 import { getFromOpenElisServer } from "../utils/Utils";
 import QuestionnaireResponse from "../common/QuestionnaireResponse";
-import PageBreadCrumb from "../common/PageBreadCrumb";
+import PageBreadCrumb from "../common/PageBreadCrumb.tsx";
 import "./programCaseView.css";
 
 let breadcrumbs = [

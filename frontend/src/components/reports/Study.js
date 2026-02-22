@@ -7,7 +7,7 @@ import {
   Microscope,
 } from "@carbon/icons-react";
 import config from "../../config.json";
-import PageBreadCrumb from "../common/PageBreadCrumb";
+import PageBreadCrumb from "../common/PageBreadCrumb.tsx";
 
 let breadcrumbs = [{ label: "home.label", link: "/" }];
 export const RoutineReportsMenu = {

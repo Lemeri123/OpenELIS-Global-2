@@ -10,7 +10,7 @@ import {
 } from "@carbon/react";
 import { FormattedMessage, useIntl } from "react-intl";
 import { AlertDialog, NotificationKinds } from "../common/CustomNotification";
-import PageBreadCrumb from "../common/PageBreadCrumb";
+import PageBreadCrumb from "../common/PageBreadCrumb.tsx";
 import { NotificationContext } from "../layout/Layout";
 import AutoComplete from "../common/AutoComplete";
 

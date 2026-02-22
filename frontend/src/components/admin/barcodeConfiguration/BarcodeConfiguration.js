@@ -22,7 +22,7 @@ import {
   AlertDialog,
   NotificationKinds,
 } from "../../common/CustomNotification.js";
-import PageBreadCrumb from "../../common/PageBreadCrumb.js";
+import PageBreadCrumb from "../../common/PageBreadCrumb.tsx";
 import { Field, Formik } from "formik";
 import BarcodeConfigurationFormValues from "../../formModel/innitialValues/BarcodeConfigurationFormValues.js";
 
@@ -177,7 +177,7 @@ function BarcodeConfiguration() {
     postToOpenElisServerJsonResponse(
       `/rest/BarcodeConfiguration`,
       JSON.stringify(e),
-      (data) => {},
+      (data) => { },
     );
     setLoading(false);
   }
@@ -216,11 +216,11 @@ function BarcodeConfiguration() {
               <Formik
                 initialValues={barcodeFromValues}
                 enableReinitialize={true}
-                // // validationSchema={}
-                // validateOnChange={false}
-                // validateOnBlur={true}
-                // onSubmit
-                // onChange
+              // // validationSchema={}
+              // validateOnChange={false}
+              // validateOnBlur={true}
+              // onSubmit
+              // onChange
               >
                 {({
                   values,

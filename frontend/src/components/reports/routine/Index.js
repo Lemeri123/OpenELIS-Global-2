@@ -7,7 +7,7 @@ import PatientStatusReport from "../common/PatientStatusReport";
 import StatisticsReport from "./StatisticsReport";
 import ReferredOut from "./ReferredOut";
 import ReportByDate from "../common/ReportByDate";
-import PageBreadCrumb from "../../common/PageBreadCrumb";
+import PageBreadCrumb from "../../common/PageBreadCrumb.tsx";
 import AuditTrailReport from "../auditTrailReport/AuditTrailReport";
 
 export const RoutineReports = (props) => {

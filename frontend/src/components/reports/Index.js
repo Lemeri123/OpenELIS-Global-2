@@ -3,7 +3,7 @@ import { AlertDialog } from "../common/CustomNotification";
 import { NotificationContext } from "../layout/Layout";
 import { injectIntl, FormattedMessage, useIntl } from "react-intl";
 import { useLocation } from "react-router-dom";
-import PageBreadCrumb from "../common/PageBreadCrumb";
+import PageBreadCrumb from "../common/PageBreadCrumb.tsx";
 import { StudyReports } from "./study/index";
 import { RoutineReports } from "./routine/Index";
 import { Loading } from "@carbon/react";

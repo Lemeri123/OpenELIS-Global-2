@@ -3,7 +3,7 @@ import { injectIntl } from "react-intl";
 import ReflexRule from "./ReflexRuleForm";
 import { Grid, Column, Section, Heading } from "@carbon/react";
 import { FormattedMessage } from "react-intl";
-import PageBreadCrumb from "../../common/PageBreadCrumb";
+import PageBreadCrumb from "../../common/PageBreadCrumb.tsx";
 
 const breadcrumbs = [
   { label: "home.label", link: "/" },

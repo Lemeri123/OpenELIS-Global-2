@@ -5,7 +5,7 @@ import { AlertDialog } from "../common/CustomNotification";
 import { NotificationContext } from "../layout/Layout";
 import { Heading, Grid, Column, Section } from "@carbon/react";
 import { injectIntl, FormattedMessage } from "react-intl";
-import PageBreadCrumb from "../common/PageBreadCrumb";
+import PageBreadCrumb from "../common/PageBreadCrumb.tsx";
 
 let breadcrumbs = [{ label: "home.label", link: "/" }];
 

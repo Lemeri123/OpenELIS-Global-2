@@ -2,7 +2,7 @@ import React, { useContext, useState, useEffect } from "react";
 import { AlertDialog } from "../../common/CustomNotification";
 import { NotificationContext } from "../../layout/Layout";
 import { injectIntl, FormattedMessage, useIntl } from "react-intl";
-import PageBreadCrumb from "../../common/PageBreadCrumb";
+import PageBreadCrumb from "../../common/PageBreadCrumb.tsx";
 import AuditTrailReport from "./AuditTrailReport.js";
 import { Loading } from "@carbon/react";
 

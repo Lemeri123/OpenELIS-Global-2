@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import { Button, Loading, Grid, Column, Section, Heading } from "@carbon/react";
 import { FormattedMessage, useIntl, injectIntl } from "react-intl";
 import { getFromOpenElisServer } from "../../utils/Utils";
-import PageBreadCrumb from "../../common/PageBreadCrumb";
+import PageBreadCrumb from "../../common/PageBreadCrumb.tsx";
 import { NotificationContext } from "../../layout/Layout";
 import {
   AlertDialog,

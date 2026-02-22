@@ -8,7 +8,7 @@ import {
   InlineNotification,
   Stack,
 } from "@carbon/react";
-import PageBreadCrumb from "../common/PageBreadCrumb";
+import PageBreadCrumb from "../common/PageBreadCrumb.tsx";
 import { NotificationContext } from "../layout/Layout";
 import { AlertDialog, NotificationKinds } from "../common/CustomNotification";
 import PatientSelectionStep from "./patientMerge/PatientSelectionStep";

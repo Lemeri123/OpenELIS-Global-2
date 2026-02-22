@@ -1,4 +1,4 @@
-import PageBreadCrumb from "../common/PageBreadCrumb";
+import PageBreadCrumb from "../common/PageBreadCrumb.tsx";
 import { NCECorrectiveAction } from "./common/NCECorrectiveAction";
 import { ReportNonConformingEvent } from "./common/ReportNonConformingEvent";
 import { ViewNonConformingEvent } from "./common/ViewNonConforming";

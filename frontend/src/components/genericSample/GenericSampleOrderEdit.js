@@ -9,7 +9,7 @@ import {
   InlineLoading,
 } from "@carbon/react";
 import { FormattedMessage, useIntl } from "react-intl";
-import PageBreadCrumb from "../common/PageBreadCrumb";
+import PageBreadCrumb from "../common/PageBreadCrumb.tsx";
 import CustomDatePicker from "../common/CustomDatePicker";
 import CustomTimePicker from "../common/CustomTimePicker";
 import CustomSelect from "../common/CustomSelect";

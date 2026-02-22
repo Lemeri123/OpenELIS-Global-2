@@ -28,7 +28,7 @@ import {
 import CustomLabNumberInput from "../../common/CustomLabNumberInput";
 import config from "../../../config.json";
 import CustomDatePicker from "../../common/CustomDatePicker";
-import PageBreadCrumb from "../../common/PageBreadCrumb";
+import PageBreadCrumb from "../../common/PageBreadCrumb.tsx";
 import { ConfigurationContext } from "../../layout/Layout";
 import { Formik, Field } from "formik";
 import ReferredOutTestsFormValues from "../../formModel/innitialValues/ReferredOutTestsFormValues";

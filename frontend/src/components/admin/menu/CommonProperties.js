@@ -15,7 +15,7 @@ import {
   Button,
   Loading,
 } from "@carbon/react";
-import PageBreadCrumb from "../../common/PageBreadCrumb";
+import PageBreadCrumb from "../../common/PageBreadCrumb.tsx";
 
 export const CommonProperties = () => {
   const [commonProperties, setCommonProperties] = useState(null);

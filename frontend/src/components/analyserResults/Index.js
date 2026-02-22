@@ -15,7 +15,7 @@ import {
 import { FormattedMessage, useIntl } from "react-intl";
 import { getFromOpenElisServer } from "../utils/Utils";
 import { ArrowLeft, ArrowRight } from "@carbon/react/icons";
-import PageBreadCrumb from "../common/PageBreadCrumb";
+import PageBreadCrumb from "../common/PageBreadCrumb.tsx";
 import CustomLabNumberInput from "../common/CustomLabNumberInput";
 
 let breadcrumbs = [{ label: "home.label", link: "/" }];

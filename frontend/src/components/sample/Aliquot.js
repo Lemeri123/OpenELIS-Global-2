@@ -3,7 +3,7 @@ import "../Style.css";
 import { injectIntl, FormattedMessage, useIntl } from "react-intl";
 import AliquotPage from "./AliquotForm";
 import { Heading, Grid, Column, Section } from "@carbon/react";
-import PageBreadCrumb from "../common/PageBreadCrumb";
+import PageBreadCrumb from "../common/PageBreadCrumb.tsx";
 
 function Aliquot() {
   return (
